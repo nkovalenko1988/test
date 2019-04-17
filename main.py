@@ -19,3 +19,5 @@ parsed_string = json.loads(json.dumps(response.json()))
 
 
 print(parsed_string['SERVICES'][2]['SERVICE_ID'])
+
+print('test')
