@@ -12,7 +12,7 @@ imsi = '250110201205100'
 
 response = requests.get('http://' + host + '/spr/sm/getAllServices?subscriber_id=' + imsi)
 
-print(json.dumps(response.json(), sort_keys=True, indent=4))
+#print(json.dumps(response.json(), sort_keys=True, indent=4))
 
 
 parsed_string = json.loads(json.dumps(response.json()))
